@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const { RichEmbed } = require("discord.js");
 const config = require("./config.json");
-const votes = require('./votes.js')
+//const votes = require('./votes.js')
 const Discord = require("discord.js");
 const client = new Discord.Client({
   fetchAllMembers: false,
